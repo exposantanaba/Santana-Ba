@@ -1,0 +1,1 @@
+async function loadPage(n){const r=await fetch('data/'+n+'.json');const j=await r.json();document.body.innerHTML+=j.html;}
